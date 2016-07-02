@@ -1,0 +1,45 @@
+body {
+  font: 10pt verdana, arial;
+}
+
+.capaflotante {
+  width: 339px;
+  position: absolute;
+  top: 100px;
+  left: 180px;
+  display: none;
+}
+
+.cfarriba {
+  width: 339px;
+  height: 15px;
+  background: transparent url(../img/arriba.png) no-repeat;
+}
+
+.cfabajo {
+  width: 339px;
+  height: 15px;
+  background: transparent url(../img/abajo.png) no-repeat;
+}
+
+.cfmedio {
+  background: transparent url(../img/medio.png) repeat-y;
+  padding: 4px 19px;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: #1E83C0;
+  border-radius: 20px;
+  padding: 10px;
+  color: #FFF;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  color: #000;
+}
+
+button:focus {
+  outline: 0px;
+}

@@ -1,0 +1,187 @@
+
+/*primera pagina divertida*/
+body {
+  background: white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+blockquote {
+  font-family: serif;
+  font-style: italic;
+}
+
+header{
+  background-image: url("../img/working.jpg");
+  font-family: 'Pacifico',cursive;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 40em;
+
+}
+header h1{
+  text-align: center;
+  color: #f06292;
+  font-size: 7em;
+  position: relative;
+  top:5%;
+}
+section {
+  margin: 0em auto 0em auto;
+  padding: 2em;
+}
+#seccion1{
+  background-color: #FF5A75;
+  padding-bottom: 5em;
+}
+#seccion1 button{
+  outline: none;
+  padding: 1em 3em;
+  background: #FF5A75;
+  color: white;
+  border: 2px solid #FFF;
+
+}
+
+
+#seccion1 button:hover{
+  background: #FF8E9E;
+  color: white;
+}
+
+#seccion1 h2{
+  text-align:center;
+  color: white;
+  font-family: 'Pacifico',cursive;
+  font-size: 3em;
+}
+
+section ul{
+  margin: 2em auto 1em auto;
+  padding: 0;
+  text-align: center;
+}
+
+section ul li{
+  margin: 2em;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+}
+
+section ul li a{
+  text-decoration: none;
+  display: block;
+  color:white ;
+  background: #8F2E3E;
+  padding: 0.5em;
+}
+
+#seccion2{
+  background-color: black;
+  color: white;
+  padding-bottom: 5em;
+}
+
+#seccion2 h2{
+  text-align:center;
+  color: white;
+  font-family: 'Pacifico',cursive;
+  font-size: 3em;
+}
+
+.quotes {
+  text-align: center
+}
+  .quotes button {
+    background: transparent;
+    border: 1px solid white;
+    padding: 4px 14px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: all 300ms ease-in-out
+  }
+  .quotes button:focus {
+    outline: none
+  }
+  .quotes button:active,
+  .quotes button:hover {
+    background-color: #FF5A75;
+    border-color: #FF5A75;
+    color: white;
+  }
+
+img{
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+section figure{
+  display: inline-block;
+}
+
+footer{
+  background-color: #FF5A75;
+  overflow: hidden;
+  padding: 2em;
+  text-align: center;
+
+}
+
+footer h2{
+  font-family: 'Pacifico',cursive;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  margin: 0;
+}
+
+footer p{
+  color: white;
+  text-align:center;
+}
+
+form{
+  display: block;
+  width:100;
+  margin: 1em;
+  padding: 0;
+}
+
+form input,textarea{
+  display: block;
+  width: 95%;
+  margin: 1em;
+  padding: 1em;
+}
+form input: focus, textarea:focus{
+  border: 2px solid #511923;
+
+
+}
+
+footer button{
+  /*display: block;*/
+  width: 95%;
+  margin: 1em;
+  padding: 1em;
+  outline: none;
+  background: #FF5A75;
+  color: white;
+  border: 2px solid #FFF;
+}
+
+
+footer button:hover{
+  background: #FF8E9E;
+  color: white;
+}

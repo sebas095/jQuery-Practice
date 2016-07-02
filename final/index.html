@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <title>Mi primera página usando HTMl</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/imagenes.css">
+  <link rel="stylesheet" type="text/css" href="css/dialogo.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <h1> La primera página de un@ jointDeveloper</h1>
+  </header>
+
+  <section id="seccion1">
+    <div class="capaflotante" id="cf">
+      <div class="cfarriba"></div>
+      <div class="cfmedio">
+        <p>Bienvenidos a jointDeveloper :D</p>
+      </div>
+      <div class="cfabajo"></div>
+    </div>
+    <h2>Visita nuestras redes sociales</h2>
+    <ul>
+      <li>
+        <a href="https://twitter.com/jointdev">
+          <button>Twitter</button>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="seccion2">
+    <h2>Eventos JointDeveloper</h2>
+    <figure>
+      <img src="img/foto1.JPG">
+    </figure>
+    <figure>
+      <img src="img/foto3.JPG">
+    </figure>
+    <figure>
+      <img src="img/foto4.JPG">
+    </figure>
+    <div class="quotes">
+      <h2>Mis frases favoritas</h2>
+      <blockquote id="frases-app"></blockquote>
+      <button id="frases-button">Siguiente ></button>
+      <br><br><br>
+    </div>
+    <div id="misimg">
+      <h2>Mis imágenes favoritas</h2>
+      <div id="imgs"></div>
+      <button type="button" class="btn" id="izq">Anterior</button>
+      <button type="button" class="btn" id="der">Siguiente</button>
+    </div>
+  </section>
+  <footer>
+    <h2>Contacto</h2>
+    <p> Para nosotros es importante que nos contactes</p>
+    <form>
+      <input type="text" placeholder="Escribe tu nombre"/>
+      <input type="email" placeholder="@email.com">
+      <textarea placeholder="Escribenos lo que mas te gusta"> </textarea>
+      <button>Enviar</button>
+    </form>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/imagenes.js"></script>
+  <script src="js/caja.js"></script>
+</body>
+</html>

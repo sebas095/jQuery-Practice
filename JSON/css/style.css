@@ -1,0 +1,46 @@
+img {
+  height: 300px;
+  width: 400px;
+  position: fixed;
+  left: 30%;
+  top: 20%;
+  border-style: dashed;
+  border-color: #FBB7E5;
+}
+
+.msj {
+  position: fixed;
+  left: 30%;
+  top: 57%;
+  padding: 20px 146px 15px 145px;
+  background-color: #FBB7E5;
+  display: none;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: #1E83C0;
+  border-radius: 20px;
+  padding: 10px;
+  color: #FFF;
+  transition: all 300ms ease-in-out;
+  bottom: 25%;
+}
+
+#der {
+  position: fixed;
+  left: 50%;
+}
+
+#izq {
+  position: fixed;
+  left: 40%;
+}
+
+button:hover {
+  color: #000;
+}
+
+button:focus {
+  outline: none;
+}

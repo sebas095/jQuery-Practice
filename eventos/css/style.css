@@ -1,0 +1,16 @@
+img {
+  height: 300px;
+  width: 400px;
+  position: fixed;
+  left: 30%;
+  top: 20%;
+}
+
+.msj {
+  position: fixed;
+  left: 30%;
+  top: 55%;
+  padding: 30px 137px 20px 137px;
+  background-color: #EDD37E;
+  display: none;
+}

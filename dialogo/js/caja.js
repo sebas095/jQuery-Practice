@@ -1,5 +1,5 @@
 $(function() {
-  $('#enlacemostrar').click(function() {
+  $('#enlacemostrar').click(function(e) {
     $('#cf').css({
       display: 'block',
       left: (e.pageX + 15) + 'px',
